@@ -1,4 +1,4 @@
-public class InsertionSorting {
+public class InsertionSort {
 
 
   public static void main(String[] args) {

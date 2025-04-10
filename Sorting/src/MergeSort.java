@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MergeSorting {
+public class MergeSort {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class MergeSorting {
       System.out.print(arr[i] + " ");
     }
     System.out.println();
-    MergeSorting.mergeSort(arr, 0, n - 1);
+    MergeSort.mergeSort(arr, 0, n - 1);
     System.out.println("After sorting array: ");
     for (int i = 0; i < n; i++) {
       System.out.print(arr[i] + " ");
